@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "description": "Автогенерируется скриптом GitHub Actions при каждом коммите. Не редактировать вручную.",
-  "generated": "2026-02-25T00:00:00",
+  "description": "Автогенерируется скриптом GitHub Actions. Не редактировать вручную.",
+  "generated": "2026-02-25T13:30:22",
   "total": 0,
   "sale": 0,
   "rent": 0,
   "added_last_7days": 0,
   "last_updated_developer": "",
   "last_updated_file": "",
-  "last_updated_date": "2026-02-25",
+  "last_updated_date": "",
   "by_category": {
     "ПСН": 0,
     "Офис": 0,
@@ -17,15 +17,5 @@
     "ГАБ": 0,
     "Премиум": 0
   },
-  "by_developer": {
-    "A101": 0,
-    "Самолёт": 0,
-    "ФСК": 0,
-    "MR Group": 0,
-    "ЛСР": 0,
-    "Брусника": 0,
-    "Донстрой": 0,
-    "Инград": 0,
-    "Суперпремиум": 0
-  }
+  "by_developer": {}
 }
