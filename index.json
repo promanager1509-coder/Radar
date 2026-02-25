@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "description": "Реестр всех источников данных PSNHUB. Добавить застройщика = новый объект в sources[]",
+  "updated": "2026-02-25",
+  "base_url": "https://raw.githubusercontent.com/promanager1509-coder/tilda-data/main/",
+  "sources": [
+    {
+      "developer": "A101",
+      "slug": "a101",
+      "active": true,
+      "page": "/a101",
+      "color": "#2D6A4F",
+      "files": {
+        "sale": "data/developers/a101/a101_sale.json",
+        "rent": "data/developers/a101/a101_rent.json"
+      }
+    },
+    {
+      "developer": "Самолёт",
+      "slug": "samolet",
+      "active": true,
+      "page": "/samolet",
+      "color": "#E76F51",
+      "files": {
+        "sale": "data/developers/samolet/samolet_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "ФСК",
+      "slug": "fsk",
+      "active": true,
+      "page": "/fsk",
+      "color": "#457B9D",
+      "files": {
+        "sale": "data/developers/fsk/fsk_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "MR Group",
+      "slug": "mr_group",
+      "active": true,
+      "page": "/mr-group",
+      "color": "#6D6875",
+      "files": {
+        "sale": "data/developers/mr_group/mr_group_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "ЛСР",
+      "slug": "lsr",
+      "active": true,
+      "page": "/lsr",
+      "color": "#264653",
+      "files": {
+        "sale": "data/developers/lsr/lsr_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "Брусника",
+      "slug": "brusnika",
+      "active": true,
+      "page": "/brusnika",
+      "color": "#B5838D",
+      "files": {
+        "sale": "data/developers/brusnika/brusnika_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "Донстрой",
+      "slug": "donstroy",
+      "active": true,
+      "page": "/donstroy",
+      "color": "#1D3557",
+      "files": {
+        "sale": "data/developers/donstroy/donstroy_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "Инград",
+      "slug": "ingrad",
+      "active": true,
+      "page": "/ingrad",
+      "color": "#A8DADC",
+      "files": {
+        "sale": "data/developers/ingrad/ingrad_sale.json",
+        "rent": null
+      }
+    },
+    {
+      "developer": "Суперпремиум",
+      "slug": "premium",
+      "active": true,
+      "page": "/premium",
+      "color": "#C9A227",
+      "files": {
+        "sale": "data/developers/premium/premium_sale.json",
+        "rent": null
+      }
+    }
+  ]
+}

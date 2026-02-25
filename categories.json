@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "description": "Реестр категорий (плиток) главной страницы. Добавить плитку = новый объект в categories[]. Код сайта не трогаем.",
+  "updated": "2026-02-25",
+  "categories": [
+    {
+      "id": "psn-sale",
+      "visible": true,
+      "order": 1,
+      "icon": "🏪",
+      "label": "ПСН",
+      "sublabel": "продажа · новостройки",
+      "badge": null,
+      "color_scheme": "purple",
+      "page": "/psn-sale",
+      "filter": { "type": "ПСН", "deal": "sale" },
+      "counter_source": "auto",
+      "promo": null
+    },
+    {
+      "id": "office-sale",
+      "visible": true,
+      "order": 2,
+      "icon": "🏢",
+      "label": "Офисы",
+      "sublabel": "продажа · новостройки",
+      "badge": null,
+      "color_scheme": "blue",
+      "page": "/office-sale",
+      "filter": { "type": "Офис", "deal": "sale" },
+      "counter_source": "auto",
+      "promo": null
+    },
+    {
+      "id": "psn-rent",
+      "visible": true,
+      "order": 3,
+      "icon": "📋",
+      "label": "Аренда ПСН",
+      "sublabel": "аренда · новостройки",
+      "badge": "NEW",
+      "color_scheme": "orange",
+      "page": "/psn-rent",
+      "filter": { "type": "ПСН", "deal": "rent" },
+      "counter_source": "auto",
+      "promo": null
+    },
+    {
+      "id": "pvz-rent",
+      "visible": true,
+      "order": 4,
+      "icon": "📦",
+      "label": "Аренда под ПВЗ",
+      "sublabel": "помещения · первичный рынок",
+      "badge": "HOT",
+      "color_scheme": "teal",
+      "page": "/pvz-rent",
+      "filter": { "type": "ПВЗ", "deal": "rent" },
+      "counter_source": "auto",
+      "promo": {
+        "enabled": true,
+        "title": "Не нашли подходящий вариант?",
+        "text": "Подберём помещение под ваш ПВЗ индивидуально — бесплатно",
+        "cta_label": "Оставить заявку",
+        "cta_link": "/contacts"
+      }
+    },
+    {
+      "id": "gab",
+      "visible": true,
+      "order": 5,
+      "icon": "💼",
+      "label": "ГАБ",
+      "sublabel": "готовый арендный бизнес",
+      "badge": "SOON",
+      "color_scheme": "teal",
+      "page": "/gab",
+      "filter": { "type": "ГАБ", "deal": "sale" },
+      "counter_source": "auto",
+      "promo": null
+    },
+    {
+      "id": "premium",
+      "visible": true,
+      "order": 6,
+      "icon": "✨",
+      "label": "Суперпремиум",
+      "sublabel": "элитная коммерция",
+      "badge": null,
+      "color_scheme": "gold",
+      "page": "/premium",
+      "filter": { "type": "Премиум", "deal": "sale" },
+      "counter_source": "auto",
+      "promo": null
+    }
+  ]
+}
