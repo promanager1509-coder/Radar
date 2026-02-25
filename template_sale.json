@@ -1,0 +1,30 @@
+{
+  "_comment": "ШАБЛОН. Скопируй этот файл, переименуй и заполни. Поле id должно быть уникальным.",
+  "developer": "Название застройщика",
+  "slug": "slug_zastroyshchika",
+  "updated": "2026-02-25",
+  "deal": "sale",
+  "units": [
+    {
+      "id": "developer-001",
+      "jk": "Название ЖК",
+      "developer": "Название застройщика",
+      "type": "ПСН",
+      "deal": "sale",
+      "price": 0,
+      "area": 0.0,
+      "floor": 1,
+      "finishing": "без отделки",
+      "delivery": "2026-Q4",
+      "district": "ЦАО",
+      "city": "Москва",
+      "metro": ["Название станции"],
+      "address": "Москва, ул. ...",
+      "url_developer": "https://...",
+      "has_3d": false,
+      "url_3d": "",
+      "commission": 0,
+      "comment": ""
+    }
+  ]
+}
